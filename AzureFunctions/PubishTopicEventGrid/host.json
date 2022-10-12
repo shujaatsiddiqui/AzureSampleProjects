@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "notifications": {
+        "eventGrid": {
+          "topicEndpoint": "https://shudemoevent.westus-1.eventgrid.azure.net/api/events",
+          "keySettingName": "Key1"
+        }
+      }
+    }
+  }
+}
